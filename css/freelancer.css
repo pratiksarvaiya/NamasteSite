@@ -10,6 +10,36 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position-y: 5vh;
+}
+
+.banner1 {
+  background-image: url('../img/mobile/IMG1.jpg');
+}
+.banner2 {
+  background-image: url('../img/mobile/IMG2.jpg');
+}
+.banner3 {
+  background-image: url('../img/mobile/IMG3.jpg');
+}
+.banner4 {
+  background-image: url('../img/mobile/IMG4.jpg');
+}
+
+
+@media(min-width: 992px) {
+  .banner1 {
+    background-image: url('../img/1.jpg');
+  }
+  .banner2 {
+    background-image: url('../img/2.jpg');
+  }
+  .banner3 {
+    background-image: url('../img/3.jpg');
+  }
+  .banner4 {
+    background-image: url('../img/4.jpg');
+  }
 }
 
 h1,
