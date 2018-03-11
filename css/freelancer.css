@@ -2,6 +2,11 @@ body {
   font-family: 'Lato';
 }
 
+.nextprevicons {
+  background-color: #18bc9c;
+  width: 15px;
+}
+
 .carousel-item {
   height: 100vh;
   min-height: 300px;
