@@ -2,51 +2,6 @@ body {
   font-family: 'Lato';
 }
 
-.nextprevicons {
-  background-color: #18bc9c;
-  width: 15px;
-}
-
-.carousel-item {
-  height: 100vh;
-  min-height: 300px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-position-y: 5vh;
-}
-
-.banner1 {
-  background-image: url('../img/mobile/IMG1.jpg');
-}
-.banner2 {
-  background-image: url('../img/mobile/IMG2.jpg');
-}
-.banner3 {
-  background-image: url('../img/mobile/IMG3.jpg');
-}
-.banner4 {
-  background-image: url('../img/mobile/IMG4.jpg');
-}
-
-
-@media(min-width: 992px) {
-  .banner1 {
-    background-image: url('../img/1.jpg');
-  }
-  .banner2 {
-    background-image: url('../img/2.jpg');
-  }
-  .banner3 {
-    background-image: url('../img/3.jpg');
-  }
-  .banner4 {
-    background-image: url('../img/4.jpg');
-  }
-}
-
 h1,
 h2,
 h3,
@@ -55,7 +10,6 @@ h5,
 h6 {
   font-weight: 700;
   font-family: 'Montserrat';
-  color: black;
 }
 
 hr.star-light,
@@ -423,4 +377,63 @@ a:focus, a:hover, a:active {
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
   background-color: #1a252f;
   border-color: #1a252f;
+}
+
+.carousel-indicators li {
+  background-color: black;
+}
+
+.carousel-indicators .active {
+  background-color: #18bc9c;
+}
+
+.nextprevicons {
+  background-color: #18bc9c;
+  width: 15px;
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position-y: 5vh;
+}
+
+.banner1 {
+  background-image: url("../img/mobile/IMG1.jpg");
+}
+
+.banner2 {
+  background-image: url("../img/mobile/IMG2.jpg");
+}
+
+.banner3 {
+  background-image: url("../img/mobile/IMG3.jpg");
+}
+
+.banner4 {
+  background-image: url("../img/mobile/IMG4.jpg");
+}
+
+@media (min-width: 992px) {
+  .banner1 {
+    background-image: url("../img/1.jpg");
+  }
+  .banner2 {
+    background-image: url("../img/2.jpg");
+  }
+  .banner3 {
+    background-image: url("../img/3.jpg");
+  }
+  .banner4 {
+    background-image: url("../img/4.jpg");
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: black;
 }
